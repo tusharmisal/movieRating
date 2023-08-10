@@ -72,7 +72,7 @@ if(myear=="")
 fetch("https://www.omdbapi.com/?apikey=1e7be9b7&t="+mname.value)
     .then((response) => response.json())
     .then((json) => {
-      console.log(json);
+      console.log("result",json);
     });
 
 // axios({
