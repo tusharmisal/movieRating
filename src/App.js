@@ -73,7 +73,7 @@ fetch("https://www.omdbapi.com/?apikey=1e7be9b7&t="+mname.value)
     .then((response) => response.json())
     .then((json) => {
       console.log("result",json);
-      console.log("result",json);
+     // remove
     });
 
 // axios({
